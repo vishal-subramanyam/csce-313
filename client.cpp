@@ -194,11 +194,12 @@ int main (int argc, char *argv[]) {
 		MESSAGE_TYPE quit = QUIT_MSG;
 		channels.back()->cwrite(&quit, sizeof(MESSAGE_TYPE));
 		delete channels.back();
+		channels.pop_back();
 	}
 	
 	// closing the channel    
     MESSAGE_TYPE quit = QUIT_MSG;
-    chan->cwrite(&quit, sizeof(MESSAGE_TYPE));
+    channels[0]->cwrite(&quit, sizeof(MESSAGE_TYPE));
 
 	wait(nullptr);
 	return 0;
