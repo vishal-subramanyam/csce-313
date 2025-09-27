@@ -1,0 +1,18 @@
+Transferring test10MB.bin...
+Client-side is done and exited
+Server terminated
+Filesize: 10485760 bytes
+Time: 0:03.14, CPU: 90%
+
+Transferring test50MB.bin...
+Client-side is done and exited
+Server terminated
+Filesize: 52428800 bytes
+Time: 0:10.39, CPU: 94%
+
+Transferring test100MB.bin...
+Client-side is done and exited
+Server terminated
+Filesize: 104857600 bytes
+Time: 0:18.76, CPU: 98%
+
